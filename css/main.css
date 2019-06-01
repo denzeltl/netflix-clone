@@ -26,6 +26,25 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
+.table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #222;
+}
+
+.light-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+li > a:hover {
+    text-decoration: underline;
+}
+
 .selected-tab {
     color: #fff;
     border-bottom: var(--primary-color) 4px solid;
