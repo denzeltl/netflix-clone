@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="css/tailwind.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="css/main.css"
+        />
+        <!-- <link rel="stylesheet" href="css/debug.css" /> -->
+    </head>
+    <body class="bg-black text-white">
+        <header class="showcase h-screen w-full relative">
+            <div class="showcase-top relative h-24 z-10">
+                <img
+                    src="https://i.ibb.co/r5krrdz/logo.png"
+                    alt="Netflix-logo"
+                    class="w-48 mx-auto pt-5"
+                />
+                <a href="#"
+                    ><button
+                        class="rounded px-5 py-1 bg-primary-color hover:bg-red-600 focus:outline-none top-0 absolute right-0 mt-5 mr-10"
+                    >
+                        Sign In
+                    </button></a
+                >
+            </div>
+            <div
+                class="showcase-content flex flex-col items-center pt-4 z-10 relative"
+            >
+                <h1 class="text-6xl font-bold mb-4">See what's next.</h1>
+                <h2 class="uppercase text-3xl mt-0 mb-12">
+                    Watch Anywhere. Cancel Anytime.
+                </h2>
+                <a href="#"
+                    ><button
+                        class="rounded px-12 py-6 bg-primary-color hover:bg-red-600 uppercase focus:outline-none text-3xl tracking-widest"
+                    >
+                        Try 30 Days Free
+                        <i class="fas fa-chevron-right ml-4"></i></button
+                ></a>
+                <p class="mt-6 text-xl">
+                    Been a member before?
+                    <a href="#" class="font-bold underline"
+                        >Restart Membership</a
+                    >
+                </p>
+            </div>
+        </header>
+
+        <section class="tabs bg-dark-color pt-8 border-b-2 mb-10">
+            <div
+                class="container flex justify-center text-center mx-auto font-bold"
+            >
+                <div
+                    id="tab-1"
+                    class="tab-item selected-tab w-1/3 hover:text-white cursor-pointer pb-2"
+                >
+                    <i class="fas fa-door-open fa-3x"></i>
+                    <p>No commitments<br />Cancel online at anytime</p>
+                </div>
+                <div
+                    id="tab-2"
+                    class="tab-item w-1/3 hover:text-white cursor-pointer pb-2r"
+                >
+                    <i class="fas fa-tv fa-3x"></i>
+                    <p>Watch anywhere</p>
+                </div>
+                <div
+                    id="tab-3"
+                    class="tab-item w-1/3 hover:text-white cursor-pointer pb-2"
+                >
+                    <i class="fas fa-tags fa-3x"></i>
+                    <p>Pick your price</p>
+                </div>
+            </div>
+        </section>
+
+        <script src="main.js"></script>
+    </body>
+</html>
